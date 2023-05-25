@@ -1,0 +1,83 @@
+body {
+background-color: #00FFFF;
+margin: auto;
+
+
+
+}
+#div1{
+width:  500;
+height: 100;
+background-color: #0000;
+text-align: center;
+margin-left: 430px;
+font-family: arial;
+
+}
+
+
+
+#div2{
+width:  1100;
+height: 100;
+text-align: center;
+margin-left: 150px;
+font-family: arial;
+
+}
+
+#div3{
+
+    justify-content: center;
+    font-family: arial;
+    text-align: center;
+
+
+}
+
+
+#div4{
+width:  1100;
+height: 100;
+text-align: center;
+margin-left: 130px;
+font-family: arial;
+
+}
+
+#formulario{
+width:  500;
+height: 100;
+text-align: center;
+margin-left: 400px;
+font-family: arial;
+color : black;
+
+
+}
+
+fieldset
+{
+
+  background-color:#FFFFFF;
+  margin-left: 70px;
+ border : 0;
+ float: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

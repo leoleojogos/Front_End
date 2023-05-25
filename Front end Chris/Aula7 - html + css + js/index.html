@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    
+    <title>Raul Seixas</title>
+
+</head>
+<body>
+
+    <nav>
+
+        <div class="logo">
+            <a href="index.html"> Raul Seixas </a>
+        </div>
+
+        <ul>
+            <li> <a href="historico.html"> Histórico </a> </li>
+            <li> <a href="descografia.html"> Discografia </a> </li>
+            <li> <a href="shows.html"> Shows </a> </li>
+            <li> <a href="fotos.html"> Fotos </a> </li>
+            
+        </ul>
+        
+        
+
+    </nav>
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="foto_banner.png" style="width:100%">
+      <div class="text">Raul Seixas</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="foto_banner2.png" style="width:100%">
+      <div class="text">Discos 24</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="foto_banner3.png" style="width:100%">
+      <div class="text">Frase</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+    <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+                
+
+    <div class="div2">
+        Raul Seixas (1945-1989) foi um cantor, compositor, guitarrista e produtor brasileiro, um dos mais importantes nomes do rock no Brasil.  <br><br>Entre suas músicas destacam-se: Maluco Beleza, Eu Nasci Há 10 Mil Anos Atrás, Mosca na Sopa e Ouro de Tolo.
+      <br><br>
+        Raul Santos Seixas nasceu em Salvador, Bahia, no dia 28 de junho de 1945. <br><br> Era filho de Raul Varela Seixas, engenheiro de estradas de ferro, e de Maria Eugênia Santos Seixas.
+        <br><br>
+        Com sete anos iniciou no curso primário. Em 1957 ingressou no Colégio São Bento, mas foi reprovado <br><br> na 2ª série por três anos. Foi então mandado para o curso interno do Colégio Marista, mas só completou a 3ª série.
+        <br><br>
+        Raul gostava de ler os livros da biblioteca de seu pai e criva suas próprias histórias desenhando os  <br><br>personagens nos cadernos da escola. Gostava de música, mas seu sonho era ser escritor.
+        <br><br>
+        Na adolescência ele ficava horas ouvindo as músicas de Elvis Presley e de  <br><br>Little Richard. Em 1959, junto com o amigo Waldir Serrão, fundou o fã clube “Elvis Rock Club”.
+      </div>
+      <br><br>
+       <div class="div2">
+       <img src="raul.png" width=360 height=280 >
+       </div>
+       
+   
+</body>
+</html>

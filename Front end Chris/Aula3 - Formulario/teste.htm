@@ -1,0 +1,58 @@
+<HTML>
+<HEAD>
+ <TITLE>Formulario</TITLE>
+</HEAD>
+<BODY>
+<form NAME = "MeuForm" ACTION = "" METHOD ="post">
+<h2>Formulario de Contato</h2>
+<br>
+Nome :<br>
+<input type="text" id = "nome" name="nome" size = 30>
+<br><br>
+Cidade : <br>
+<input type="text" id = "cidade" name="cidade" size = 30>
+<br><br>
+
+<input type="text" id = "nome" size = "20" name="nome" size = 30  placeholder="Nome">
+<br><br>
+<input type="text" id = "cidade" size = "20" name="cidade" size = 30  placeholder="Cidade">
+<br><br>
+<input type="text" id = "estado" size = "20" name="estado" size = 30  placeholder="Estado">
+<br><br>
+Sexo :<br>
+<input type="radio" id = "sexo" name="sexo" value = "F" > Feminino
+<input type="radio" id = "sexo" name="sexo" value = "M" checked > Masculino
+<input type="radio" id = "sexo" name="sexo" value = "O"> Outros
+<br><br>
+Cursos : <br>
+<input type="checkbox" id = "curso" name="curso" value = "I" checked> Informatica
+<input type="checkbox" id = "curso" name="curso" value = "M"> Mecatronica
+<input type="checkbox" id = "curso" name="curso" value = "A"> Adiministrativo
+<br><br>
+Senha : <br>
+<input type="password" id = "senha" name="senha" size =10 maxlength = "8">
+<br><br>
+Estado : <br>
+<select  name="estado" id = "estado">
+<option value = "SC"> santa Catarina
+<option value = "PR"> Paraná
+<option value = "RS"> Rio Grande do Sul
+</select>
+ <br><br>
+ Comentários : <br>
+ <textarea name = "obs" id = "obs" cols= 30 rows = 5>
+ Digite aqui seu comentarios....
+ </textarea>
+ <br><br>
+Noticias : <br>
+<select  name="noticias" id = "noticias">
+<option value = "P"> Politica
+<option value = "E"> Economia
+<option value = "L"> Lazer
+</select>
+<br><br>
+<p align="center"><input type="submit" name="enviar" id = "enviar" size = 30  value="Enviar"> </p>
+<p align="center"><input type="reset" name="limpar" id = "limpar" size = 30 value="Limpar"> </p>
+</form>
+</BODY>
+</HTML>

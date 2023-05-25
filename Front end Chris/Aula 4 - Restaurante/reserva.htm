@@ -1,0 +1,78 @@
+<HTML>
+<HEAD>
+ <TITLE>Reservas</TITLE>
+</HEAD>
+<BODY bgcolor=#00FFFF>
+ <p align="center">  <img src="logo.png" width=350 height=130> </p>
+  <p align="center"> <b> <a href="index.html">Home</a> <a href="ambiente.htm">Ambiente</a> <a href="reserva.htm">Reserva</a></p></b>
+
+<!-- logo, nome restaurante, etc.... cabeçalho -->
+<!-- definir cor, fontes e alinhamento -->
+<table border = "3" bordercolor="#FFFFFF" align="center" >
+ <br><br>
+ <form NAME = "formulario"  METHOD ="post" ACTION = "" >
+ <font face="arial" size =3>
+
+ <tr>
+ <td>
+ <b> Informações do Cliente: </b>
+ <br><br>
+ Nome: <input type="text" name="nome" id = "nome" size = 30>
+<br><br>
+ Endereço: <input type="text" name="endereco" id = "endereco" size = 30>
+<br><br>
+ Cidade: <input type="text" name="cidade" id = "cidade" size = 30 >
+ <br><br>
+Estado :
+<select  name="estado" id = "estado">
+<option value = ""> Escolha seu estado
+<option value = "SC"> SC
+<option value = "PR"> PR
+<option value = "RJ"> RJ
+</select>
+ <br><br>
+E-mail: <input type="text" name="email" id = "email" size = 30  >
+<br><br>
+Telefone:  <input type="text" name="telefone" id = "telefone" size = 30  >
+ <br><br>
+Celular:  <input type="text" name="celular" id = "celular" size = 30  >
+ <br><br>
+ </td>
+ <td>
+<b> Informações da Reserva: </b>
+ <br><br>
+Tipo Reserva :
+<select  name="tipo" id = "tipo">
+<option value = "C"> Casamentos
+<option value = "F"> Formaturas
+<option value = "A"> Aniversários
+</select>
+<br><br>
+Data Reserva :
+<input type="date" name="data" id = "data" >
+Hora Reserva :
+<input type="time" name="hora" id = "hora" >
+<br><br>
+Número de Mesas:
+<input type="text" name="mesas" id = "mesas" size = 5  >
+<br><br>
+Número de Pessoas:
+<input type="text" name="pessoas" id = "pessoas" size = 5  >
+Número de Crianças:
+<input type="text" name="criancas" id = "criancas" size = 5  >
+<br><br><br>
+<input type="submit" name="enviar" id = "enviar" size = 30  value="Enviar">
+<input type="reset" name="limpeza" id = "limpeza" size = 30 value="Limpar">
+<br><br>
+</td>
+</tr>
+</font>
+</p>
+</form>
+</table>
+<br><br>
+ <font face="arial" size =3>
+<p align = "center"> Site desenvolvido por Leonardo Da Cruz Ramos </p>
+</font>
+</BODY>
+</HTML>

@@ -1,0 +1,24 @@
+body {
+background-image: url("inicio.jpg") ;
+margin: auto;
+
+}
+#div1{
+width:  500;
+height: 100;
+background-color: #0000;
+text-align: center;
+margin-left: 400px;
+}
+
+#div2{
+width:  500;
+height: 500;
+background-color: #F92BBB;
+text-aligh: justify;
+margin-left: 400px;
+font-family: verdana;
+font-size: 16px;
+color : 00008B;
+
+}

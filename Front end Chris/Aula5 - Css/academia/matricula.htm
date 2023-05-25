@@ -1,0 +1,92 @@
+<HTML>
+<HEAD>
+ <TITLE>Matricula</TITLE>
+</HEAD>
+<BODY>
+<link rel="stylesheet" type="text/css" href="estilo.css" />
+
+
+ <div id="div1">
+<img src="logo.png" width=250 height=130><br>
+<a href="index.htm">Início</a> <a href="modalidades.htm">Modalidades</a> <a href="instrutores.htm">Instrutores</a> <a href="matricula.htm">Matrícula </a>
+</div>
+ <br><br> <br><br>
+
+<div id="formulario">
+<form NAME = "formulario"  METHOD ="post" ACTION = "" >
+<fieldset>
+Dados da Pessoas: <br><br>
+<input type="text" name="nome" id = "nome" size = 20 placeholder="digite seu Nome aqui">
+<input type="text" name="endereco" id = "endereco" size = 20  placeholder="digite seu Endereco aqui">
+<br><br>
+<input type="text" name="bairro" id = "bairro" size = 15  placeholder="digite seu bairro aqui">
+
+<input type="text" name="cep" id = "cep" size = 20  placeholder="digite seu cep aqui">
+<br><br>
+<input type="text" name="cidade" id = "cidade" size = 10 placeholder="digite sua cidade aqui">
+
+Estado :
+<select  name="estado" id = "estado" >
+<option value = "SC"> santa Catarina
+<option value = "PR"> Paraná
+<option value = "RS"> Rio Grande do Sul
+</select>
+<br><br>
+<input type="number" name="Residencial" id = "Residencial" size = 22 placeholder="digite telefone Residencial">
+
+<input type="number" name="telefone" id = "telefone" size = 22 placeholder="digite seu telefone celular aqui">
+<br> <br>
+Sexo:
+<input type="radio" id = "sexo" name="sexo" value = "F" > Feminino
+<input type="radio" id = "sexo" name="sexo" value = "M" checked > Masculino
+<input type="radio" id = "sexo" name="sexo" value = "O"> Outros
+<br> <br>
+Estado Civil:
+<input type="radio" id = "civil" name="civil" value = "S" checked> Solteiro (a)
+<input type="radio" id = "civil" name="civil" value = "C" > Casado  (a)
+<input type="radio" id = "civil" name="civil" value = "V"> Viúvo  (a)
+ <br><br>
+ Data Nacimento :
+<input type="date" name="data" id = "data" >
+<br><br>
+
+
+</fieldset>
+
+
+<fieldset>
+Dados da Matrícula :
+<br><br>
+Dia :
+<input type="radio" id = "segunda" name="segunda" value = "S" > Segunda
+<input type="radio" id = "Terça" name="Terça" value = "T" >Terça
+<input type="radio" id = "Quarta" name="Quarta" value = "Q" >Quarta
+<input type="radio" id = "Quinta" name="Quinta" value = "QI" >Quinta <br>
+<input type="radio" id = "Sexta" name="Sexta" value = "SE" >Sexta
+<input type="radio" id = "Sábado" name="Sábado" value = "SA" >Sábado
+<input type="radio" id = "Domingo" name="Domingo" value = "DO" >Domingo
+<br><br>
+Modalidade :
+<select  name="modalidade" id = "modalide">
+<option value = "TOP"> TOP SOCCER
+<option value = "FUN"> TOP FUNCIONAL
+<option value = "HIT"> TOP HIT
+</select>
+<br><br>
+
+Periodo:
+<input type="checkbox" id = "Matutino" name="Matutino" value = "MA" > Matutino
+<input type="checkbox" id = "sexo" name="sexo" value = "VE" > Vespertino
+<input type="checkbox" id = "sexo" name="sexo" value = "NO"> Noturno
+<br><br>
+
+<input type="submit" name="enviar" id = "enviar" size = 30  value="Enviar">
+<input type="reset" name="limpeza" id = "limpeza" size = 30 value="Limpar">
+</div>
+</fieldset>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>><br><br><br>
+<div id="div3">
+Site desenvolvido por Leonardo Da Cruz Ramos
+</div>
+</BODY>
+</HTML>
