@@ -1,2 +1,3 @@
 # Front_End
-alguns arquivos front end satc
+Projetos utilizando html,css e javascript(frontend)
+2◉ Fase Curso Tecnico satc
